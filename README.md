@@ -36,8 +36,8 @@ bash-3.2$ `GOOS=linux GOARCH=386 go build -o rcert.ux`
 bash-3.2$ `GOOS=windows GOARCH=386 go build -o rcert.exe`
 
 * Provided binaries:
-rcert.exe: PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows
-rcert.osx: Mach-O executable i386
-rcert.ux:  ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
+- rcert.exe: PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows
+- rcert.osx: Mach-O executable i386
+- rcert.ux:  ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
 
 ![rcert](https://github.com/dsnezhkov/rcert/raw/master/screenshot_448.png "rcert run")
