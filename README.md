@@ -27,4 +27,4 @@ bash-3.2$ `GOOS=linux GOARCH=386 go build -o rcert.ux`
 
 bash-3.2$ `GOOS=windows GOARCH=386 go build -o rcert.exe`
 
-![rcert](/relative/path/to/img.jpg?raw=true "rcert run")
+![rcert](https://github.com/dsnezhkov/rcert/raw/master/screenshot_448.png "rcert run")
