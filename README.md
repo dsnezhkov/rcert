@@ -10,7 +10,16 @@ Things *rcert* looks for:
 
 All these are presented visually for inspection. Also, greppable format. 
 
+Timeouts on TLS connection are decent but the overall speed is not great at the moment - sequential connectivity.
+So if you want to pre-scan the hosts to see if they are listening on HTTP/S that will speed things up.
+
+The tool does *not* fetch content of pages it requests. It breaks after the TLS has been established and the certificate can be examined.
+
+* TODO: Async connectivity.
+
 ### Usage:
+Accepts a file with one IP per line
+
 $ `go run rcert.go -ipfile=./randips.open443`
 
 or 
@@ -18,8 +27,7 @@ or
 $ `go build -o rcert.osx`
 
 $ `./rcert.osx   -ipfile=./randips.open443 `
-### X-compile:
-
+### Cross-compile for Go:
 
 bash-3.2$ `GOOS=darwin GOARCH=386 go build -o rcert.osx`
 
