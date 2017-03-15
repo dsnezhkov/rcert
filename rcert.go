@@ -103,8 +103,7 @@ func main() {
 		usage()
 	}
 
-	//timeout := time.Duration(10 * time.Second)
-	//tlstimeout := time.Duration(5 * time.Second)
+
 	timeout := time.Duration(6 * time.Second)
 	tlstimeout := time.Duration(3 * time.Second)
 	hosts := []string{}
