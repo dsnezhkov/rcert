@@ -21,7 +21,7 @@ The tool does *not* fetch content of pages it requests. It breaks after the TLS 
 
 Accepts a file with one IP per line
 
-*If you have Golang enviroment setup
+**If you have Golang enviroment setup**
 
 $ `go run rcert.go -ipfile=./randips.open443`
 
@@ -29,7 +29,8 @@ or
 
 $ `go build -o rcert.osx`
 
-*If you do not have Golang enviroment, you can use prebuilt binaries shipped with the repo
+**If you do not have Golang enviroment, you can use prebuilt binaries shipped with the repo**
+
 $ `./rcert.osx   -ipfile=./randips.open443 `
 ### Cross-compile for Go:
 
